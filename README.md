@@ -1,7 +1,7 @@
 # Content
 
 Also available in lammps/potential folder:
-- [CBN_RPA.drip][./CBN_RPA.drip]: DRIP parameters based on EXX-RPA DFT data for use with LAMMPS.  
+- [CBN_RPA.drip](./CBN_RPA.drip): DRIP parameters based on EXX-RPA DFT data for use with LAMMPS.  
 - `CBN_LDA.drip`: DRIP parameters based on LDA DFT data for use with LAMMPS. 
 - `CH.rebo-LB`: Reparametrization of the CH.rebo file, for use with LAMMPS.
 
