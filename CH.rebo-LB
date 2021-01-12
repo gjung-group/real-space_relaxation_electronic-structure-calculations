@@ -1,4 +1,12 @@
 # DATE: 2018-7-3 CONTRIBUTOR: Cyril Falvo, cyril.falvo@u-psud.fr 
+# DATE: 2020-1-12 CONTRIBUTOR: Leconte Nicolas, lecontenicolas@gmail.com
+#
+# For CH.rebo-LB
+# Modified version of CH.rebo using different beta parameters in REBO2 Brenner potential following L. LINDSAY AND D. A. BROIDO, PHYSICAL REVIEW B 81, 205441 (2010)
+# Limited numerical stability, as discussed in Nicolas Leconte, Srivani Javvaji,Jiaqi An, Appalakondaiah Samudrala, and Jeil Jung
+# T0/2 has no impact on the relaxation. Yet, to change this value to the new value, change the hard-coded value in pair_airebo.cpp
+#
+# For CH.rebo:
 # REBO2 Brenner potential modified from CH.airebo
 # Cite as  D. W. Brenner, O. A. Shenderova, J. A. Harrison, S. J. Stuart, B. Ni, and S. B. Sinnott,
 # "A second- generation reactive empirical bond order (rebo) potential energy expression for hydrocarbons.",
