@@ -15,6 +15,7 @@ Output scripts:
 
 Scripts:
 - `GenMoire.f90`: script to create commensurate cells for tBG, aligned hBN/G, etc, with arbitrary precision on the twist angle when increasing the simulation cell
+- Scripts to extract elastic constants from a LAMMPS calculation for hexagonal system
 
 # Future content
 Code:
