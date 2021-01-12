@@ -6,7 +6,7 @@ Also available in lammps/potential folder:
 - [CH.rebo-LB](./CH.rebo-LB): Reparametrization of the CH.rebo file, for use with LAMMPS.
 
 Input file:
-- `lammps.in.gap2020`: input file for LAMMPS that leverages the gap2020 potential for intralayer interactions.
+- `lammps.in.gap2020`: input file for LAMMPS that leverages the gap2020 potential for intralayer interactions. Check [Quip interface for LAMMPS](https://lammps.sandia.gov/doc/pair_quip.html) as well as [some notes regarding installation](quipInstallation).
 
 Output scripts:
 - [getOutput.py](./getOutput.py) and [getOutputOnlyG.py](./getOutputOnlyG.py): extract data from LAMMPS `dump.minimization` file
