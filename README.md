@@ -2,8 +2,8 @@
 
 Also available in lammps/potential folder:
 - [CBN_RPA.drip](./CBN_RPA.drip): DRIP parameters based on EXX-RPA DFT data for use with LAMMPS.  
-- `CBN_LDA.drip`: DRIP parameters based on LDA DFT data for use with LAMMPS. 
-- `CH.rebo-LB`: Reparametrization of the CH.rebo file, for use with LAMMPS.
+- [CBN_LDA.drip](./CBN_LDA.drip): DRIP parameters based on LDA DFT data for use with LAMMPS. 
+- [CH.rebo-LB](./CH.rebo-LB): Reparametrization of the CH.rebo file, for use with LAMMPS.
 
 Input file:
 - `lammps.in.gap2020`: input file for LAMMPS that leverages the gap2020 potential for intralayer interactions.
