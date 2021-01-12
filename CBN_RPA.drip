@@ -1,3 +1,13 @@
+# DATE: 2019-12-09 CONTRIBUTOR: Nicolas Leconte, lecontenicolas@gmail.com$
+#
+# Parameters of the Dihedral-angle-corrected registry-dependent interlayer (DRIP)
+# potential for multilayer graphene-hBN systems.
+#$
+# For the EXX-RPA fitted parameters: cite as Nicolas Leconte, Srivani Javvaji,Jiaqi An, Appalakondaiah Samudrala, and Jeil Jung
+# For the DRIP Implementation: cite as M. Wen, S. Carr, S. Fang, E. Kaxiras, and E. B. Tadmor, Phys. Rev. B, 98, 235404 (2018)
+
+
+#     C0        C2        C4        C       delta  lambda      A       z0       B         eta    rho_cut r_cut normal_cut
 C C 0.00856829 0.0017813 -3.2766e-08 -0.0461566 0.464683 1.25875 -0.0404881 3.30506 0.0155172 -1.02589 1.562 12 3.7
 C B 2.6496158969076346e-02 5.3257016012492740e-02 7.7490870641518994e-02 4.0366987338628505e-08 8.8050762920538372e-01 3.0548391948225033e+00 1.5437635768739649e-08 3.1325502647875640e+00 8.0524913596593511e-03 1.2772606713434675e+00 1.562 12 3.7
 C N 3.5852834008933548e-02 1.7102303192317067e-04 2.0605577031212751e-02 7.2238241377142179e-03 7.7288066087995522e-01 3.1153087236833956e+00 5.1881018945497598e-02 3.0842565523643142e+00 4.2216529718590049e-03 1.0832163836326401e+00 1.562 12 3.7
