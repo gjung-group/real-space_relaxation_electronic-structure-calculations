@@ -4,7 +4,7 @@
 # For CH.rebo-LB
 # Modified version of CH.rebo using different beta parameters in REBO2 Brenner potential following L. LINDSAY AND D. A. BROIDO, PHYSICAL REVIEW B 81, 205441 (2010)
 # Limited numerical stability, as discussed in Nicolas Leconte, Srivani Javvaji,Jiaqi An, Appalakondaiah Samudrala, and Jeil Jung
-# T0/2 has no impact on the relaxation. Yet, to change this value to the new value, change the hard-coded value in pair_airebo.cpp
+# T0/2 has no impact on the relaxation in tBG systems. Yet, to change this value to the new value, change the hard-coded value in pair_airebo.cpp
 #
 # For CH.rebo:
 # REBO2 Brenner potential modified from CH.airebo
@@ -99,12 +99,12 @@
         2.5885710000
         1.6019100000
         0.4025160000
-        0.0000000000
-       -3.1822000000
-       -19.992800000 
-       -51.410800000
-       -61.992500000
-       -29.052300000
+        0.0000000000 # These are the values that have been changed from CH.rebo to CH.rebo-LB 
+       -3.1822000000 # These are the values that have been changed from CH.rebo to CH.rebo-LB
+       -19.992800000 # These are the values that have been changed from CH.rebo to CH.rebo-LB 
+       -51.410800000 # These are the values that have been changed from CH.rebo to CH.rebo-LB
+       -61.992500000 # These are the values that have been changed from CH.rebo to CH.rebo-LB
+       -29.052300000 # These are the values that have been changed from CH.rebo to CH.rebo-LB
         0.2718560918
         0.4892740137
        -0.4328177539
@@ -124,12 +124,12 @@
         2.5885710000
         1.6019100000
         0.4025160000
-        0.0000000000
-       -3.1822000000
-       -19.992800000 
-       -51.410800000
-       -61.992500000
-       -29.052300000
+        0.0000000000  # These are the values that have been changed from CH.rebo to CH.rebo-LB 
+       -3.1822000000  # These are the values that have been changed from CH.rebo to CH.rebo-LB
+       -19.992800000  # These are the values that have been changed from CH.rebo to CH.rebo-LB 
+       -51.410800000  # These are the values that have been changed from CH.rebo to CH.rebo-LB
+       -61.992500000  # These are the values that have been changed from CH.rebo to CH.rebo-LB
+       -29.052300000  # These are the values that have been changed from CH.rebo to CH.rebo-LB
         0.3754514434
         1.4072691309
         2.2551320117
