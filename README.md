@@ -1,3 +1,7 @@
+# Introduction
+
+We provide here a series of scripts and files that have been used in the context of the multi-scale methodology introduced in N. Leconte et al. (update reference).
+
 # Content
 
 Also available in lammps/potential folder:
