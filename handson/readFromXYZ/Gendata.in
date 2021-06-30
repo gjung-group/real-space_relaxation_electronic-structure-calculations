@@ -1,0 +1,59 @@
+#   OMP_NUM_THREADS=8
+#   export OMP_NUM_THREADS
+#   grabnes Gendata.in > OUT 
+#
+
+Description Generate TB data
+Prefix generate
+
+TypeOfSystem ReadXYZ
+TypeOfBL BLSrivani
+addPressureDependence .true.
+changeLatticeParameterForSrivaniModel .true.
+
+TB.OnSiteC 0.44
+TB.Hopping 3.5
+
+twoLayers .true.
+twoLayersZ1 15.85
+twoLayersZ2 19.15
+
+InterlayerDistance 3.34
+
+SuperCell 1
+
+Calculate.OnlyDOS .false.
+Kubo.Calc .false.
+Diag.Calc .true.
+Calculate.Bands .true.
+
+Bands.NumPoints 20
+&begin Bands.Path 4
+2/3   1/3 0.0 #K (what I think)
+0.0   0.0  0.0 #Gamma
+0.5   0.0 0.0 #
+2/3   1/3 0.0 #K' (what I think)
+&end Bands.Path
+
+Neigh.fastNNnotsquare .true.
+
+twistedBLtbt 0.113
+Neigh.LayerNeighbors 400
+TB.NeighLevels 3
+Neigh.LayerDistFactor 6.2
+CellHeight 40.0
+MoireBilayerElectricField .false.
+MoireBilayerElectricShift 0.0
+
+WriteDataFiles .true.
+WritePos .true.
+
+RecursionNumber 2000
+NumberofTimeSteps 1000
+TimeStep 5.0
+NumberofPolynomials 100
+NumberofEnergyPoints 4000
+Epsilon 0.000162
+WriteNumberofSteps 10
+EnergyMin 0-6.0
+EnergyMax 6.0

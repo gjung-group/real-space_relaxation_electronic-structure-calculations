@@ -1,0 +1,124 @@
+[0] MPI startup(): Multi-threaded optimized library
+[0] MPI startup(): shm data transfer mode
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       162363   n011.hpc   0
+[0] MPI startup(): I_MPI_DEBUG=5
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_MAP=hfi1_0:0
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_NUM=2
+[0] MPI startup(): I_MPI_PIN_MAPPING=1:0 0
+* Program started on November 19 2019 at 10:41:01                
+Running MPI version on 1 processor                               
+
+    +----------------------------------------------------+
+    | +------------------------------------------------+ |
+    | |                                                | |
+    | |                    GraBNES                     | |
+    | |      Graphene and BN Electronic Structure      | |
+    | |      ------------------------------------      | |
+    | |          Quantum Transport Calculator          | |
+    | |                                                | |
+    | +------------------------------------------------+ |
+    +----------------------------------------------------+
+
+start: ---- Description of the system ----
+start: Generate TB data
+start: ------------------------------------------------------------------
+
+cell: Length of unit cell: 2.46000 Ang
+
+ Angle=   0.000000000000000E+000  0.000000000000000E+000
+ ucell    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.500000000000000       0.866025403784439       0.000000000000000E+000
+ Rcell    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.500000000000000       0.866025403784439       0.000000000000000E+000
+ basis   0.500000000000000       0.288675134594813       0.000000000000000E+000
+   1.00000000000000       0.577350269189626       0.000000000000000E+000
+atoms: Size of graphene layer:  1 x 1
+ X  1.976262583364986E-323  0.000000000000000E+000  0.000000000000000E+000
+atoms: Number of atoms: 2
+atoms: Number of electrons: 2.0
+ nDiv=            1
+ we are in the procID one loop in atoms.f90
+
+atoms: Atoms distribution:
+atoms: ProcessID   Num. of atoms           Indx1           Indx2
+atoms:        1               2               1               2
+
+tbpar: Hopping g0: 3.1000
+ Hello World from thread =            0
+ham: We are adding an effective moire potential in the onsite energies
+ switching the electric field at    1.23000000000000     
+ You didnt specify any trilayer parameters, is that correct?
+ham: aG =2.4600
+
+neigh: Generating neighbor list
+ Hi I'm here again
+ Hi I'm here again3
+ Hi I'm here again2
+ hi I'm here
+
+ for   0.000000000000000E+000  we have a flux of   0.000000000000000E+000
+ tAA1, tAA2, tAB1, tAB2, tBA0, tBA2, tBA5:
+ -2.981935483870967E-002  7.416129032258064E-003 -4.487096774193548E-002
+  2.326129032258064E-002 -0.106774193548387       3.277419354838710E-003
+ -3.225806451612903E-005
+ You didnt specify any trilayer parameters, is that correct?
+ angle coming from Cell Parameters:                      NaN
+ angle in grad coming from Cell Parameters:                      NaN
+ tbt (in gamma0) =   3.645161290322581E-002
+ham: Note that for bilayer systems, we use the F2G2 model by default 
+ham: for interlayer (unless it is a twisted system) and intralayer 
+ham: terms
+HamHopping:  HAA 0 0
+HamHopping:  HAB 0 0
+HamHopping:  HBA 0 0
+HamHopping:  All 3 numbers should be equal 2 2  2
+HamHopping:  Number of interlayer hoppings 0
+ prefix isgenerate                                                    
+   2.55414036877219       -1.47463362945871       0.000000000000000E+000
+  0.000000000000000E+000   2.94926725891743       0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000  0.157079632679490     
+diag: Band calculation
+ 0:   0.666666666666667       0.333333333333333       0.000000000000000E+000
+ 1:    1.70276024584813       0.000000000000000E+000  0.000000000000000E+000
+ 2:    1.70276024584813       0.000000000000000E+000  0.000000000000000E+000
+ 0:   0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+ 1:   0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+ 2:   0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
+ 0:   0.500000000000000       0.000000000000000E+000  0.000000000000000E+000
+ 1:    1.27707018438609      -0.737316814729357       0.000000000000000E+000
+ 2:    1.27707018438609      -0.737316814729357       0.000000000000000E+000
+ 0:   0.666666666666667       0.333333333333333       0.000000000000000E+000
+ 1:    1.70276024584813       0.000000000000000E+000  0.000000000000000E+000
+ 2:    1.70276024584813       0.000000000000000E+000  0.000000000000000E+000
+ ptsTot, nPath          47           4          20
+ initial Gamma:    1.70276024584813       0.000000000000000E+000
+  0.000000000000000E+000
+ final Gamma:    1.70276024584813       0.000000000000000E+000
+  0.000000000000000E+000          48
+
+diag: Path with 4 points:
+diag: Point 1:   1   0.000000
+diag: Point 2: 21   1.702760
+diag: Point 3: 38   3.177393
+diag: Point 4: 48   4.028773
+
+
+.........................................................................
+
+timer:     Module     Calls      Time (s)       % Total
+timer:   -----------------------------------------------
+timer:    input         158          0.03         65.59
+timer:    ham             2          0.02         47.64
+timer:    mpi           110          0.01         18.94
+timer:    diag            2          0.00          6.28
+timer:    neigh           1          0.00          5.31
+timer:    cell            1          0.00          2.91
+timer:    magf            4          0.00          2.86
+timer:    atoms           1          0.00          2.86
+timer:    grabnes         1          0.04        100.00
+
+mem: Peak memory usage: 2.79 kB
+
+0 errors, 0 warnings                                        
+* Program finished on November 19 2019 at 10:41:01     
