@@ -14,8 +14,8 @@ Input file:
 
 Output scripts:
 - [getOutput.py](./getOutput.py) and [getOutputOnlyG.py](./getOutputOnlyG.py): extract data from LAMMPS `dump.minimization` file
-- `getInterlayerDistace.py`: extract interlayer distances from files in previous step
-- `getDisplacements.py`: extract displacements from files in first step
+- [getDisplacementsFromLammps.py](./getDisplacementsFromLammps.py): extract interlayer distances from files in previous step. Use Python3!
+- [getInterlayerDistancesFromLammps.py](./getInterlayerDistancesFromLammps.py): extract displacements from files in first step. Use Pyton3!
 
 Scripts:
 - [GenMoire.f90](./GenMoire.f90): script to create commensurate cells for tBG, aligned hBN/G, etc, with arbitrary precision on the twist angle when increasing the simulation cell
